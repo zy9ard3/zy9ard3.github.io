@@ -1,0 +1,42 @@
+# Nmap 7.80 scan initiated Wed Dec  1 19:25:57 2021 as: nmap -iL /root/Subdomains/lyst.com/lyst.com.txt -Pn -sC -sV -oA /root/Nmap/lyst.com
+Host: 104.16.0.229 ()	Status: Up
+Host: 104.16.0.229 ()	Ports: 80/open/tcp//http//cloudflare/, 443/open/tcp//ssl|https//cloudflare/, 8080/open/tcp//http-proxy//cloudflare/, 8443/open/tcp//ssl|https-alt//cloudflare/	Ignored State: filtered (996)
+Host: 52.53.65.179 (ec2-52-53-65-179.us-west-1.compute.amazonaws.com)	Status: Up
+Host: 52.53.65.179 (ec2-52-53-65-179.us-west-1.compute.amazonaws.com)	Ports: 80/open/tcp//http//OpenResty web app server/, 443/open/tcp//ssl|http//OpenResty web app server/	Ignored State: filtered (998)
+Host: 46.51.172.116 (ec2-46-51-172-116.eu-west-1.compute.amazonaws.com)	Status: Up
+Host: 46.51.172.116 (ec2-46-51-172-116.eu-west-1.compute.amazonaws.com)	Ports: 80/open/tcp//http//nginx/, 443/open/tcp//ssl|http//nginx/	Ignored State: filtered (998)
+Host: 104.16.28.230 ()	Status: Up
+Host: 104.16.28.230 ()	Ports: 80/open/tcp//http//cloudflare/, 443/open/tcp//ssl|https//cloudflare/, 8080/open/tcp//http-proxy//cloudflare/, 8443/open/tcp//ssl|https-alt//cloudflare/	Ignored State: filtered (996)
+Host: 104.16.30.230 ()	Status: Up
+Host: 104.16.30.230 ()	Ports: 80/open/tcp//http//cloudflare/, 443/open/tcp//ssl|https//cloudflare/, 8080/open/tcp//http-proxy//cloudflare/, 8443/open/tcp//ssl|https-alt//cloudflare/	Ignored State: filtered (996)
+Host: 104.16.51.111 ()	Status: Up
+Host: 104.16.51.111 ()	Ports: 80/open/tcp//http//cloudflare/, 443/open/tcp//ssl|https//cloudflare/, 8080/open/tcp//http-proxy//cloudflare/, 8443/open/tcp//ssl|https-alt//cloudflare/	Ignored State: filtered (996)
+Host: 10.1.20.37 ()	Status: Up
+Host: 10.1.20.37 ()	Status: Up
+Host: 50.31.34.214 (pnkfnnds.outbound-mail.sendgrid.net)	Status: Up
+Host: 50.31.34.214 (pnkfnnds.outbound-mail.sendgrid.net)	Status: Up
+Host: 104.16.29.230 ()	Status: Up
+Host: 104.16.29.230 ()	Ports: 80/open/tcp//http//cloudflare/, 443/open/tcp//ssl|https//cloudflare/, 8080/open/tcp//http-proxy//cloudflare/, 8443/open/tcp//ssl|https-alt//cloudflare/	Ignored State: filtered (996)
+Host: 35.241.186.140 (140.186.241.35.bc.googleusercontent.com)	Status: Up
+Host: 35.241.186.140 (140.186.241.35.bc.googleusercontent.com)	Ports: 80/open/tcp//http///, 443/open/tcp//ssl|https///	Ignored State: filtered (998)
+Host: 54.154.32.4 (ec2-54-154-32-4.eu-west-1.compute.amazonaws.com)	Status: Up
+Host: 54.154.32.4 (ec2-54-154-32-4.eu-west-1.compute.amazonaws.com)	Ports: 80/open/tcp//http//nginx/, 443/open/tcp//ssl|http//nginx/	Ignored State: filtered (998)
+Host: 104.16.0.229 ()	Status: Up
+Host: 104.16.0.229 ()	Ports: 80/open/tcp//http//cloudflare/, 443/open/tcp//ssl|https//cloudflare/, 8080/open/tcp//http-proxy//cloudflare/, 8443/open/tcp//ssl|https-alt//cloudflare/	Ignored State: filtered (996)
+Host: 104.16.30.230 ()	Status: Up
+Host: 104.16.30.230 ()	Ports: 80/open/tcp//http//cloudflare/, 443/open/tcp//ssl|https//cloudflare/, 8080/open/tcp//http-proxy//cloudflare/, 8443/open/tcp//ssl|https-alt//cloudflare/	Ignored State: filtered (996)
+Host: 104.16.28.230 ()	Status: Up
+Host: 104.16.28.230 ()	Ports: 80/open/tcp//http//cloudflare/, 443/open/tcp//ssl|https//cloudflare/, 8080/open/tcp//http-proxy//cloudflare/, 8443/open/tcp//ssl|https-alt//cloudflare/	Ignored State: filtered (996)
+Host: 104.16.29.230 ()	Status: Up
+Host: 104.16.29.230 ()	Ports: 80/open/tcp//http//cloudflare/, 443/open/tcp//ssl|https//cloudflare/, 8080/open/tcp//http-proxy//cloudflare/, 8443/open/tcp//ssl|https-alt//cloudflare/	Ignored State: filtered (996)
+Host: 46.51.172.116 (ec2-46-51-172-116.eu-west-1.compute.amazonaws.com)	Status: Up
+Host: 46.51.172.116 (ec2-46-51-172-116.eu-west-1.compute.amazonaws.com)	Ports: 80/open/tcp//http//nginx/, 443/open/tcp//ssl|http//nginx/	Ignored State: filtered (998)
+Host: 104.16.30.230 ()	Status: Up
+Host: 104.16.30.230 ()	Ports: 80/open/tcp//http//cloudflare/, 443/open/tcp//ssl|https//cloudflare/, 8080/open/tcp//http-proxy//cloudflare/, 8443/open/tcp//ssl|https-alt//cloudflare/	Ignored State: filtered (996)
+Host: 104.16.0.229 ()	Status: Up
+Host: 104.16.0.229 ()	Ports: 80/open/tcp//http//cloudflare/, 443/open/tcp//ssl|https//cloudflare/, 8080/open/tcp//http-proxy//cloudflare/, 8443/open/tcp//ssl|https-alt//cloudflare/	Ignored State: filtered (996)
+Host: 46.51.172.116 (ec2-46-51-172-116.eu-west-1.compute.amazonaws.com)	Status: Up
+Host: 46.51.172.116 (ec2-46-51-172-116.eu-west-1.compute.amazonaws.com)	Ports: 80/open/tcp//http//nginx/, 443/open/tcp//ssl|http//nginx/	Ignored State: filtered (998)
+Host: 104.16.29.230 ()	Status: Up
+Host: 104.16.29.230 ()	Ports: 80/open/tcp//http//cloudflare/, 443/open/tcp//ssl|https//cloudflare/, 8080/open/tcp//http-proxy//cloudflare/, 8443/open/tcp//ssl|https-alt//cloudflare/	Ignored State: filtered (996)
+# Nmap done at Wed Dec  1 19:30:43 2021 -- 20 IP addresses (20 hosts up) scanned in 285.76 seconds
