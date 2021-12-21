@@ -1,0 +1,124 @@
+# Nmap 7.80 scan initiated Fri Nov 26 18:48:33 2021 as: nmap -iL /root/Subdomains/hey.com/hey.com.txt -Pn -sC -sV -oA /root/Nmap/hey.com
+Host: 204.62.114.130 (01a.forward.hey.com)	Status: Up
+Host: 204.62.114.130 (01a.forward.hey.com)	Status: Up
+Host: 204.62.114.149 (01a.fs.hey.com)	Status: Up
+Host: 204.62.114.149 (01a.fs.hey.com)	Status: Up
+Host: 204.62.114.138 (01a.hosted.hey.com)	Status: Up
+Host: 204.62.114.138 (01a.hosted.hey.com)	Status: Up
+Host: 204.62.114.224 (01a.relay.hey.com)	Status: Up
+Host: 204.62.114.224 (01a.relay.hey.com)	Status: Up
+Host: 204.62.114.148 (01a.s.hey.com)	Status: Up
+Host: 204.62.114.148 (01a.s.hey.com)	Status: Up
+Host: 204.62.114.134 (01a.trial.hey.com)	Status: Up
+Host: 204.62.114.134 (01a.trial.hey.com)	Status: Up
+Host: 204.62.114.142 (01a.world.hey.com)	Status: Up
+Host: 204.62.114.142 (01a.world.hey.com)	Status: Up
+Host: 204.62.114.139 (01b.hosted.hey.com)	Status: Up
+Host: 204.62.114.139 (01b.hosted.hey.com)	Status: Up
+Host: 204.62.114.225 (01b.relay.hey.com)	Status: Up
+Host: 204.62.114.225 (01b.relay.hey.com)	Status: Up
+Host: 204.62.114.135 (01b.trial.hey.com)	Status: Up
+Host: 204.62.114.135 (01b.trial.hey.com)	Status: Up
+Host: 204.62.114.143 (01b.world.hey.com)	Status: Up
+Host: 204.62.114.143 (01b.world.hey.com)	Status: Up
+Host: 204.62.114.136 (01c.trial.hey.com)	Status: Up
+Host: 204.62.114.136 (01c.trial.hey.com)	Status: Up
+Host: 204.62.114.227 (01d.relay.hey.com)	Status: Up
+Host: 204.62.114.227 (01d.relay.hey.com)	Status: Up
+Host: 204.62.114.137 (01d.trial.hey.com)	Status: Up
+Host: 204.62.114.137 (01d.trial.hey.com)	Status: Up
+Host: 204.62.114.132 (02a.forward.hey.com)	Status: Up
+Host: 204.62.114.132 (02a.forward.hey.com)	Status: Up
+Host: 204.62.114.140 (02a.hosted.hey.com)	Status: Up
+Host: 204.62.114.140 (02a.hosted.hey.com)	Status: Up
+Host: 204.62.114.228 (02a.relay.hey.com)	Status: Up
+Host: 204.62.114.228 (02a.relay.hey.com)	Status: Up
+Host: 204.62.114.144 (02a.world.hey.com)	Status: Up
+Host: 204.62.114.144 (02a.world.hey.com)	Status: Up
+Host: 204.62.114.141 (02b.hosted.hey.com)	Status: Up
+Host: 204.62.114.141 (02b.hosted.hey.com)	Status: Up
+Host: 204.62.114.229 (02b.relay.hey.com)	Status: Up
+Host: 204.62.114.229 (02b.relay.hey.com)	Status: Up
+Host: 204.62.114.145 (02b.world.hey.com)	Status: Up
+Host: 204.62.114.145 (02b.world.hey.com)	Status: Up
+Host: 204.62.114.230 (02c.relay.hey.com)	Status: Up
+Host: 204.62.114.230 (02c.relay.hey.com)	Status: Up
+Host: 204.62.114.231 (02d.relay.hey.com)	Status: Up
+Host: 204.62.114.231 (02d.relay.hey.com)	Status: Up
+Host: 204.62.115.90 (101a.forward.hey.com)	Status: Up
+Host: 204.62.115.90 (101a.forward.hey.com)	Status: Up
+Host: 204.62.115.192 (101a.fs.hey.com)	Status: Up
+Host: 204.62.115.192 (101a.fs.hey.com)	Status: Up
+Host: 204.62.115.181 (101a.hosted.hey.com)	Status: Up
+Host: 204.62.115.181 (101a.hosted.hey.com)	Status: Up
+Host: 204.62.115.195 (101a.relay.hey.com)	Status: Up
+Host: 204.62.115.195 (101a.relay.hey.com)	Status: Up
+Host: 204.62.115.191 (101a.s.hey.com)	Status: Up
+Host: 204.62.115.191 (101a.s.hey.com)	Status: Up
+Host: 204.62.115.94 (101a.trial.hey.com)	Status: Up
+Host: 204.62.115.94 (101a.trial.hey.com)	Status: Up
+Host: 204.62.115.185 (101a.world.hey.com)	Status: Up
+Host: 204.62.115.185 (101a.world.hey.com)	Status: Up
+Host: 204.62.115.91 (101b.forward.hey.com)	Status: Up
+Host: 204.62.115.91 (101b.forward.hey.com)	Status: Up
+Host: 204.62.115.182 (101b.hosted.hey.com)	Status: Up
+Host: 204.62.115.182 (101b.hosted.hey.com)	Status: Up
+Host: 204.62.115.196 (101b.relay.hey.com)	Status: Up
+Host: 204.62.115.196 (101b.relay.hey.com)	Status: Up
+Host: 204.62.115.95 (101b.trial.hey.com)	Status: Up
+Host: 204.62.115.95 (101b.trial.hey.com)	Status: Up
+Host: 204.62.115.186 (101b.world.hey.com)	Status: Up
+Host: 204.62.115.186 (101b.world.hey.com)	Status: Up
+Host: 204.62.115.197 (101c.relay.hey.com)	Status: Up
+Host: 204.62.115.197 (101c.relay.hey.com)	Status: Up
+Host: 204.62.115.96 (101c.trial.hey.com)	Status: Up
+Host: 204.62.115.96 (101c.trial.hey.com)	Status: Up
+Host: 204.62.115.198 (101d.relay.hey.com)	Status: Up
+Host: 204.62.115.198 (101d.relay.hey.com)	Status: Up
+Host: 204.62.115.97 (101d.trial.hey.com)	Status: Up
+Host: 204.62.115.97 (101d.trial.hey.com)	Status: Up
+Host: 204.62.115.92 (102a.forward.hey.com)	Status: Up
+Host: 204.62.115.92 (102a.forward.hey.com)	Status: Up
+Host: 204.62.115.183 (102a.hosted.hey.com)	Status: Up
+Host: 204.62.115.183 (102a.hosted.hey.com)	Status: Up
+Host: 204.62.115.199 (102a.relay.hey.com)	Status: Up
+Host: 204.62.115.199 (102a.relay.hey.com)	Status: Up
+Host: 204.62.115.187 (102a.world.hey.com)	Status: Up
+Host: 204.62.115.187 (102a.world.hey.com)	Status: Up
+Host: 204.62.115.93 (102b.forward.hey.com)	Status: Up
+Host: 204.62.115.93 (102b.forward.hey.com)	Status: Up
+Host: 204.62.115.184 (102b.hosted.hey.com)	Status: Up
+Host: 204.62.115.184 (102b.hosted.hey.com)	Status: Up
+Host: 204.62.115.200 (102b.relay.hey.com)	Status: Up
+Host: 204.62.115.200 (102b.relay.hey.com)	Status: Up
+Host: 204.62.115.188 (102b.world.hey.com)	Status: Up
+Host: 204.62.115.188 (102b.world.hey.com)	Status: Up
+Host: 204.62.115.201 (102c.relay.hey.com)	Status: Up
+Host: 204.62.115.201 (102c.relay.hey.com)	Status: Up
+Host: 204.62.115.202 (102d.relay.hey.com)	Status: Up
+Host: 204.62.115.202 (102d.relay.hey.com)	Status: Up
+Host: 35.153.117.112 (ec2-35-153-117-112.compute-1.amazonaws.com)	Status: Up
+Host: 35.153.117.112 (ec2-35-153-117-112.compute-1.amazonaws.com)	Ports: 80/open/tcp//http//awselb|2.0/, 443/open/tcp//ssl|https//awselb|2.0/	Ignored State: filtered (998)
+Host: 13.225.63.89 (server-13-225-63-89.ewr53.r.cloudfront.net)	Status: Up
+Host: 13.225.63.89 (server-13-225-63-89.ewr53.r.cloudfront.net)	Ports: 80/open/tcp//http//Amazon CloudFront httpd/, 443/open/tcp//ssl|http//Amazon CloudFront httpd/	Ignored State: filtered (998)
+Host: 18.210.46.111 (ec2-18-210-46-111.compute-1.amazonaws.com)	Status: Up
+Host: 18.210.46.111 (ec2-18-210-46-111.compute-1.amazonaws.com)	Ports: 25/open/tcp//smtp//Postfix smtpd/	Ignored State: filtered (999)
+Host: 54.209.10.193 (ec2-54-209-10-193.compute-1.amazonaws.com)	Status: Up
+Host: 54.209.10.193 (ec2-54-209-10-193.compute-1.amazonaws.com)	Ports: 25/open/tcp//smtp//Postfix smtpd/	Ignored State: filtered (999)
+Host: 35.174.83.216 (ec2-35-174-83-216.compute-1.amazonaws.com)	Status: Up
+Host: 35.174.83.216 (ec2-35-174-83-216.compute-1.amazonaws.com)	Ports: 80/open/tcp//http//awselb|2.0/, 443/open/tcp//ssl|https//awselb|2.0/	Ignored State: filtered (998)
+Host: 52.21.44.213 (ec2-52-21-44-213.compute-1.amazonaws.com)	Status: Up
+Host: 52.21.44.213 (ec2-52-21-44-213.compute-1.amazonaws.com)	Ports: 80/open/tcp//http//awselb|2.0/, 443/open/tcp//ssl|https//awselb|2.0/	Ignored State: filtered (998)
+Host: 204.62.115.10 (virt-gw.rw-ash.basecamp.com)	Status: Up
+Host: 204.62.115.10 (virt-gw.rw-ash.basecamp.com)	Status: Up
+Host: 139.59.157.62 ()	Status: Up
+Host: 139.59.157.62 ()	Ports: 22/open/tcp//ssh//OpenSSH 7.6p1 Ubuntu 4ubuntu0.5 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//nginx 1.19.0/, 443/open/tcp//ssl|http//nginx 1.19.0/	Ignored State: closed (997)
+Host: 52.1.174.178 (ec2-52-1-174-178.compute-1.amazonaws.com)	Status: Up
+Host: 52.1.174.178 (ec2-52-1-174-178.compute-1.amazonaws.com)	Ports: 80/open/tcp//http//awselb|2.0/, 443/open/tcp//ssl|https//awselb|2.0/	Ignored State: filtered (998)
+Host: 52.1.64.109 (ec2-52-1-64-109.compute-1.amazonaws.com)	Status: Up
+Host: 52.1.64.109 (ec2-52-1-64-109.compute-1.amazonaws.com)	Ports: 25/open/tcp//smtp//Postfix smtpd/	Ignored State: filtered (999)
+Host: 13.225.214.85 (server-13-225-214-85.ewr50.r.cloudfront.net)	Status: Up
+Host: 13.225.214.85 (server-13-225-214-85.ewr50.r.cloudfront.net)	Ports: 80/open/tcp//http//Amazon CloudFront httpd/, 443/open/tcp//ssl|http//Amazon CloudFront httpd/	Ignored State: filtered (998)
+Host: 34.196.254.27 (ec2-34-196-254-27.compute-1.amazonaws.com)	Status: Up
+Host: 34.196.254.27 (ec2-34-196-254-27.compute-1.amazonaws.com)	Ports: 80/open/tcp//http//Netlify/, 443/open/tcp//ssl|https//Netlify/, 8300/closed/tcp//tmi///	Ignored State: filtered (997)
+# Nmap done at Fri Nov 26 18:49:37 2021 -- 61 IP addresses (61 hosts up) scanned in 64.92 seconds
