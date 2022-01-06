@@ -1,1 +1,0 @@
-**GraphiQL Web**
