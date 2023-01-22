@@ -1,4 +1,0 @@
-public.hey.com. CNAME public.app.hey.com.
-www.hey.com. CNAME blissful-jackson-d75e90.netlify.app.
-stats.world.hey.com. CNAME custom.plausible.io.
-mx.app.hey.com. CNAME work-mx.app.hey.com.
