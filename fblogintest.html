@@ -1,0 +1,18 @@
+<html>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+  <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '712151440775721',
+      cookie     : true,
+      xfbml      : true,
+      version    : 'v18.0'
+    });
+    FB.AppEvents.logPageView();
+  };
+</script>
+<fb:login-button 
+  scope="public_profile,email"
+  onlogin="checkLoginState();">
+</fb:login-button>
+</html>
