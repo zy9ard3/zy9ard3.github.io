@@ -1,3 +1,104 @@
-<html>
-  <title>ツ</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>zy9ard3 ツ</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-xxx" crossorigin="anonymous" />
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('/imgs/bg.jpg');
+    background-size: cover;
+    color: #ffffff;
+  }
+
+  .container {
+    text-align: center;
+    padding-top: 100px;
+  }
+
+  .profile-icon {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 20px;
+    position: relative;
+  }
+
+  .profile-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+  }
+
+  .tagline {
+    font-size: 24px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    color: black;
+  }
+
+  .tagline span {
+    font-weight: bold;
+  }
+
+  .social-icons {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .social-icons img {
+    display: inline-block;
+    margin: 0 10px;
+    width: 30px;
+    height: auto;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="profile-icon">
+    <img src="/imgs/zy9ard3.jpg" alt="Profile Picture">
+  </div>
+  <div class="tagline" id="typewriter"></div>
+  <div class="social-icons">
+    <a href="https://hackerone.com/zy9ard3"><img src="/imgs/h1.ico" alt="HackerOne"></a>
+    <a href="https://twitter.com/zy9ard3"><img src="/imgs/twtr.ico" alt="Twitter"></a>
+    <a href="https://bugcrowd.com/zy9ard3"><img src="/imgs/bc.ico" alt="Bugcrowd"></a>
+  </div>
+</div>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const text = "Find Me @zy9ard3 ツ";
+    const tagline = document.getElementById('typewriter');
+    let i = 0;
+
+    function typeWriter() {
+      if (i < text.length) {
+        const span = document.createElement('span');
+        span.textContent = text.charAt(i);
+        if (text.charAt(i) !== ' ') {
+          span.style.fontWeight = 'bold';
+        }
+        tagline.appendChild(span);
+        i++;
+        setTimeout(typeWriter, Math.floor(Math.random() * 200) + 100);
+      }
+    }
+    typeWriter();
+  });
+</script>
+</body>
 </html>
