@@ -1,52 +1,210 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Git Dork Helper</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta content='vsec7' name='author'/>
-	<link rel="icon" href="https://github.githubassets.com/favicons/favicon.svg">
-	<script type="text/javascript">
-		function getKeywords(){
-		    $.get($('#url').val(), function(resp) {
-			    document.getElementById('keywords').value = resp;
-			});
-		}
+    <title>Git Dork Helper</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content='zy9ard3' name='author'/>
+    <link rel="icon" href="https://github.githubassets.com/favicons/favicon.svg">
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            margin-top: 50px;
+            overflow: hidden;
+            font-family: 'Courier New', Courier, monospace;
+        }
 
-		function Generate(){
-			$("#result").empty();
-			$.each($('#keywords').val().split('\n'), function(){
-			  var link = "https://github.com/search?q="+$('#target').val()+" "+this+"&type=Code";
-			  $('#result').append("<tr><td><input type=\"checkbox\"></td><td> <a href=\""+encodeURI(link)+"\" target=\"_blank\">"+this+"</td></tr>");
-			});
-		}
-	</script>
-	<script src="jquery-2.1.3.min.js"></script>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        #header {
+            margin-bottom: 20px;
+            text-align: center;
+            font-size: 36px;
+            white-space: nowrap;
+            overflow: hidden;
+            animation: typing 5s steps(20) infinite;
+        }
+
+        @keyframes typing {
+            from {
+                width: 0;
+            }
+            to {
+                width: 100%;
+            }
+        }
+
+        #search-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        #search-form {
+            margin-right: 20px;
+        }
+
+        #search-form input[type="text"] {
+            margin-bottom: 10px;
+            font-weight: bold;
+            width: 250px;
+            color: #000;
+        }
+
+        #search-form button {
+            margin-bottom: 10px;
+            font-weight: bold;
+            color: #000;
+        }
+
+        #clear-button {
+            margin-left: 5px;
+        }
+
+        #result {
+            height: 280px;
+            width: 25%;
+            overflow: auto;
+            border: 1px solid #777;
+            padding: 10px;
+            margin: 0 auto;
+        }
+
+        #result-content {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+
+        .result-item {
+            margin-bottom: 5px;
+            display: flex;
+            align-items: center;
+        }
+
+        .result-item input[type="checkbox"] {
+            margin-right: 5px;
+        }
+
+        .stars {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            pointer-events: none;
+            animation: stars 25s infinite linear;
+        }
+
+        @keyframes stars {
+            0% {
+                transform: translateY(0);
+            }
+            100% {
+                transform: translateY(-2000px);
+            }
+        }
+
+        .star {
+            position: absolute;
+            border-radius: 50%;
+            background: white;
+            width: 2px;
+            height: 2px;
+            animation: twinkle 0.8s infinite;
+        }
+
+        @keyframes twinkle {
+            0% {
+                opacity: 0;
+            }
+            50% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+
+        .star:nth-child(1) {
+            left: 10%;
+            top: 20%;
+            animation-delay: 0;
+        }
+
+        .star:nth-child(2) {
+            left: 80%;
+            top: 10%;
+            animation-delay: 3s;
+        }
+
+        .star:nth-child(3) {
+            left: 50%;
+            top: 50%;
+            animation-delay: 1s;
+        }
+
+        .star:nth-child(4) {
+            left: 30%;
+            top: 70%;
+            animation-delay: 2.5s;
+        }
+        
+        .target-label {
+            font-size: 16px;
+        }
+
+    </style>
 </head>
 <body>
-	<center>
-	<h1>GitHub Dork Helper</h1>
-	<table>
-		<tr>
-			<td>From URL </td>
-			<td>: <input type="text" id="url" value="https://gist.githubusercontent.com/zy9ard3/7f2446c5a1d770724fecd8a86530f8a7/raw/25c7dc3642dfaa197ba03ff8f127ce7403a48f15/cloud-source-gitdorks.txt"></td>
-			<td><button onclick="getKeywords()"> Get Keywords</button></td>
-		</tr>
-		<tr>
-			<td>Target </td>
-			<td>: <input type="text" id="target" placeholder='"paypal" or org:paypal'></td>
-			<td><button onclick="Generate()"> Generate Link</button></td>
-		</tr>
-		
-	</table>		
-	<textarea id="keywords" cols="46" rows="10"></textarea> 
-	<br>
+    <div class="stars">
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+    </div>
+    <center>
+    <div id="header">
+        Cloud Github Dork Helper
+    </div>
+    <div id="search-container">
+        <div id="search-form">
+            <label for="target"><span class="target-label">Target:</span></label>
+            <input type="text" id="target" placeholder='"paypal" or org:paypal' onkeyup="if(event.keyCode === 13) Generate()">
+            <button onclick="Generate()">Generate Link</button>
+            <button id="clear-button" onclick="clearKeywords()">Clear</button>
+        </div>
+    </div>
+    <div id="result">
+        <div id="result-content"></div>
+    </div>
+    <br>
+    <span style="font-weight: bold;">2024 | Crafted by <a href="https://twitter.com/zy9ard3">zy9ard3</a> ツ</span>
+    <br>
+    </center>
+    <script type="text/javascript">
+        function Generate(){
+            var url = "https://gist.githubusercontent.com/zy9ard3/7f2446c5a1d770724fecd8a86530f8a7/raw/25c7dc3642dfaa197ba03ff8f127ce7403a48f15/cloud-source-gitdorks.txt";
+            var target = $('#target').val();
+            
+            $.get(url, function(resp) {
+                $("#result-content").empty();
+                $.each(resp.split('\n'), function(){
+                  var link = "https://github.com/search?q="+target+" "+this+"&type=Code";
+                  $('#result-content').append("<div class='result-item'><input type=\"checkbox\"> <a href=\""+encodeURI(link)+"\" target=\"_blank\">"+this+"</a></div>");
+                });
+            });
+        }
 
-	<table>
-		<div id="result" style="height:300px;width:350px;overflow:scroll;"></div>
-	</table>
-	<br>
-	2023 | Created with Love by <a href="https://twitter.com/zy9ard3">zy9ard3</a> <3 Cath
-	<br>
-	</body>
+        function clearKeywords() {
+            $('#target').val('');
+            $("#result-content").empty();
+        }
+    </script>
+</body>
 </html>
