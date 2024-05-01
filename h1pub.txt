@@ -40,7 +40,7 @@ freshworks
 kolesagroup
 ring
 tide
-mozilla_core_services
+mozilla
 six-group
 newegg
 eero
