@@ -13,6 +13,8 @@
 \.map\.fastly\.net\.$
 \.edgesuite\.net\.$
 \.edgekey\.net\.$
+\.edgekey88\.net\.$
+\.akadns88\.net\.$
 \.akadns\.net\.$
 \.akamai\.net\.$
 \.akamaized\.net\.$
@@ -33,6 +35,8 @@ mail[0-9]\.zendesk\.com\.$
 \.stspg-customer\.com\.$
 sendgrid\.net\.$
 \.msappproxy\.net\.$
+\.a01\.azurefd\.net\.$
+\.z01\.azurefd\.net\.$
 \.sites\.hubspot\.net\.$
 \.online-metrix\.net\.$
 \.files\.wordpress\.com\.$
@@ -43,3 +47,7 @@ sendgrid\.net\.$
 \.eloqua\.com\.$
 \.q4web\.com\.$
 \.mktoweb\.com\.$
+\.omtrdc\.net\.$
+\.adobedc\.net\.$
+\.serverdata\.net\.$
+\.2o7\.net\.$
