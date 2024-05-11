@@ -1,0 +1,2 @@
+dev[0-9]{2,3}\.xyz\.com
+devapp[0-9]{6,9}xyz\.zz\.io
