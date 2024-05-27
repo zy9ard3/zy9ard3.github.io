@@ -1,12 +1,7 @@
 \.elb\.amazonaws\.com(\.cn)?$
 \.elb\..*\-[0-9]\.amazonaws\.com$
 \.execute-api\..*\-[0-9]\.amazonaws.com$
-\.es\.amazonaws\.com$
-\.eks\.amazonaws\.com$
-\.rds\.amazonaws\.com$
-\.vpce\.amazonaws\.com$
-\.cache\.amazonaws\.com$
-\.redshift\.amazonaws\.com$
+\.(es|eks|rds|vpce|cache|redshift)+\.amazonaws\.com$
 \.cloudfront\.net$
 \.awsglobalaccelerator\.com$
 \.map\.fastly\.net$
