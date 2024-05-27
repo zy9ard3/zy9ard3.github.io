@@ -1,0 +1,10 @@
+bucket+NOT+is:archived
+bucket_name+NOT+is:archived
+s3+NOT+is:archived
+gcp+NOT+is:archived
+s3_bucket+NOT+is:archived
+gcp_bucket+NOT+is:archived
+s3+amazonaws.com+NOT+is:archived
+s3.amazonaws.com+NOT+is:archived
+storage.googleapis.com+NOT+is:archived
+elasticbeanstalk.com+NOT+is:archived
