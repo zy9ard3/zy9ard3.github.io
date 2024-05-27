@@ -1,5 +1,4 @@
-\.elb\.amazonaws\.com$
-\.elb\.amazonaws\.com\.cn$
+\.elb\.amazonaws\.com(\.cn)?$
 \.elb\..*\-[0-9]\.amazonaws\.com$
 \.execute-api\..*\-[0-9]\.amazonaws.com$
 \.es\.amazonaws\.com$
