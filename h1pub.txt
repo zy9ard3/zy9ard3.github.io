@@ -4,7 +4,6 @@ varonis
 netflix
 early_warning
 klarna_bbp_public
-caesars-digital
 koho
 dyson
 truecaller
