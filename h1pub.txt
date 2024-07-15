@@ -3,7 +3,7 @@ nimiq
 varonis
 netflix
 early_warning
-klarna_bbp_public
+klarna
 koho
 dyson
 truecaller
@@ -211,7 +211,6 @@ blockchain
 brave
 rubygems
 yelp
-harvest
 ruby
 nextcloud
 moneybird
