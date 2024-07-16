@@ -3,3 +3,6 @@ zabbix
 malwarebytes
 metamask
 cloudflare
+netflix
+alchemyplatform
+nimiq
