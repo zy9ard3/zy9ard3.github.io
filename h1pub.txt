@@ -1,3 +1,10 @@
+khealth
+capital-one-bounty
+playtika
+xverse
+vodafone_oman
+nba-public
+insightly
 circle-bbp
 nimiq
 varonis
@@ -12,7 +19,6 @@ chia_network
 alchemyplatform
 toolsforhumanity
 arkose_labs
-sheer_bbp
 pornbox
 fireblocks
 dynatrace
@@ -105,7 +111,6 @@ recorded-future
 gsa_bbp
 ibb
 consensys
-xvideos
 elastic
 stripe
 homebargains
@@ -125,7 +130,7 @@ exodus
 yoti
 netlify
 basecamp
-citrix
+csg-public
 tiktok
 logitech
 enjin
@@ -183,7 +188,6 @@ valve
 crypto
 rootstocklabs
 hyperledger
-deliveroo
 nodejs
 plaid
 crowdstrike
@@ -226,6 +230,7 @@ ui
 adobe
 airbnb
 vimeo
+greenhouse
 x
 cloudflare
 automattic
