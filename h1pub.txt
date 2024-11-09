@@ -1,3 +1,5 @@
+wellsfargo-bbp
+3cx
 khealth
 capital-one-bounty
 playtika
@@ -82,7 +84,6 @@ amazonvrp-devices
 blend-labs
 mongodb
 alsco
-cornershop
 trendyol
 sidefx
 metamask
@@ -150,7 +151,6 @@ amazonvrp
 meta
 magic-bbp
 glassdoor
-kindred_group
 marriott
 goodrx
 roblox
@@ -191,11 +191,11 @@ hyperledger
 nodejs
 plaid
 crowdstrike
-localtapiola
 semrush
 hiro
 torproject
 grab
+stellar
 bumble
 spotify
 dashlane
